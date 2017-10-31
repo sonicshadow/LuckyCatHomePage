@@ -80,14 +80,23 @@
             text-align: center;
             padding: 180px 0;
 
+            h1{
+                letter-spacing:5px;
+            }
+
             a {
                 background-color: #f3ee79;
                 color: @font-col-black01;
                 display: inline-block;
-                border-radius: 20px;
+                border-radius: 7px;
                 padding: 8px 15px;
                 margin: 30px 10px;
                 font-size: 18px;
+
+                &:hover{
+                    text-decoration:none;
+                    background-color: #ddd757;
+                }
             }
 
             @media (max-width: @screen-sm) {
@@ -98,22 +107,24 @@
 
     .homeIndex-feature {
         .row {
-            margin: 50px 0;
+            padding: 30rem*@resize 0;
         }
 
         .feature-heading {
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin-top: 5rem*@resize;
+            margin-bottom: 10rem*@resize;
         }
 
         .feature-text {
             font-size: 18px;
             color: #6d767d;
+            margin-bottom: 20rem*@resize;
         }
 
         .img-fluid {
             max-width: 100%;
             height: auto;
+            border:1px dashed rgba(0,0,0,0.1);
         }
     }
 

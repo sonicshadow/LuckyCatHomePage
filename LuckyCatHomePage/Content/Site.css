@@ -597,14 +597,21 @@
   text-align: center;
   padding: 180px 0;
 }
+.homeIndex .homeIndex-swiper .homeIndex-swiper-info h1 {
+  letter-spacing: 5px;
+}
 .homeIndex .homeIndex-swiper .homeIndex-swiper-info a {
   background-color: #f3ee79;
   color: rgba(0, 0, 0, 0.87);
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 7px;
   padding: 8px 15px;
   margin: 30px 10px;
   font-size: 18px;
+}
+.homeIndex .homeIndex-swiper .homeIndex-swiper-info a:hover {
+  text-decoration: none;
+  background-color: #ddd757;
 }
 @media (max-width: 750px) {
   .homeIndex .homeIndex-swiper .homeIndex-swiper-info {
@@ -612,19 +619,21 @@
   }
 }
 .homeIndex .homeIndex-feature .row {
-  margin: 50px 0;
+  padding: 1.15942029rem 0;
 }
 .homeIndex .homeIndex-feature .feature-heading {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0.19323671rem;
+  margin-bottom: 0.38647343rem;
 }
 .homeIndex .homeIndex-feature .feature-text {
   font-size: 18px;
   color: #6d767d;
+  margin-bottom: 0.77294686rem;
 }
 .homeIndex .homeIndex-feature .img-fluid {
   max-width: 100%;
   height: auto;
+  border: 1px dashed rgba(0, 0, 0, 0.1);
 }
 .homeIndex .homeIndex-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
