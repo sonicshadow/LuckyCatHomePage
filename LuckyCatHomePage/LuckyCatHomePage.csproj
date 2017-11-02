@@ -180,6 +180,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HelpController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -198,17 +199,24 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\404\avatar.png" />
     <Content Include="Content\Images\404\default.jpg" />
+    <Content Include="Content\Images\Help\t3.jpg" />
+    <Content Include="Content\Images\Help\t2.png" />
+    <Content Include="Content\Images\Help\t1.png" />
     <Content Include="Content\Images\home\cjcat_logo.png" />
     <Content Include="Content\Images\home\img_00.png" />
     <Content Include="Content\Images\home\img_01.png" />
     <Content Include="Content\Images\home\img_02.png" />
     <Content Include="Content\Images\home\PC-Typing-fallback.jpg" />
     <Content Include="Content\PagedList.css" />
-    <Content Include="Content\Site.min.css" />
+    <Content Include="Content\Site.css">
+      <DependentUpon>Site.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.min.css">
+      <DependentUpon>Site.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\bootstrap-theme.css.map" />
@@ -227,6 +235,8 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="Content\less\views\homeIndex.less" />
+    <Content Include="Content\less\views\help.less" />
+    <None Include="Properties\PublishProfiles\LuckyCatHomePagePublish.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Comm\accessLog.js" />
     <Content Include="Scripts\Comm\canvas-to-blob.min.js" />
@@ -286,6 +296,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Help\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -658,6 +658,49 @@
   text-align: right;
   line-height: 60px;
 }
+.help {
+  background-color: #f1f1f1;
+  min-height: 100vh;
+}
+.help:before,
+.help:after {
+  content: " ";
+  display: table;
+}
+.help:after {
+  clear: both;
+}
+.help:before,
+.help:after {
+  content: " ";
+  display: table;
+}
+.help:after {
+  clear: both;
+}
+.help .help-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  background-color: #fff;
+  padding: 20px;
+}
+.help .help-content img {
+  max-width: 100%;
+}
+.help .help-qa {
+  list-style: none;
+}
+.help .help-qa li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.help .help-qa li p:nth-child(1):before {
+  content: "Q：";
+}
+.help .help-qa li p:nth-child(2):before {
+  content: "A：";
+}
 body {
   color: rgba(0, 0, 0, 0.87);
   min-height: 100vh;
